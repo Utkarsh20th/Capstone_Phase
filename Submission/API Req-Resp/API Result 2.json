@@ -1,0 +1,74 @@
+Request:
+GET http://127.0.0.1:8082/medicare/json/data/mp/products
+
+
+
+Response:
+
+[
+    {
+        "id": 3,
+        "code": "PRDDEF123DEFX",
+        "name": "Diclofenac",
+        "brand": "Intas",
+        "description": "An pain killer medicine.",
+        "unitPrice": 30.0,
+        "quantity": 15,
+        "active": true,
+        "purchases": 5,
+        "views": 9,
+        "file": null
+    },
+    {
+        "id": 5,
+        "code": "PRDMNO123PQRX",
+        "name": "Amoxicillin",
+        "brand": "Sun Pharma",
+        "description": "A commonly used antibiotic for bacterial infection.",
+        "unitPrice": 54.0,
+        "quantity": 62,
+        "active": true,
+        "purchases": 3,
+        "views": 6,
+        "file": null
+    },
+    {
+        "id": 1,
+        "code": "PRDABC123DEFX",
+        "name": "Paracetamol",
+        "brand": "Cipla",
+        "description": "An antipyretic medicine used for fever.",
+        "unitPrice": 18.0,
+        "quantity": 48,
+        "active": true,
+        "purchases": 2,
+        "views": 0,
+        "file": null
+    },
+    {
+        "id": 2,
+        "code": "PRDDEF123GHIX",
+        "name": "Combiflame",
+        "brand": "Cipla",
+        "description": "An antipyretic medicine used for fever.",
+        "unitPrice": 22.0,
+        "quantity": 48,
+        "active": true,
+        "purchases": 2,
+        "views": 2,
+        "file": null
+    },
+    {
+        "id": 7,
+        "code": "PRD532A3945CB",
+        "name": "Utkarsh_medicine",
+        "brand": "Utkarsh_brand",
+        "description": "This is a dummy new medicine",
+        "unitPrice": 10.0,
+        "quantity": 99,
+        "active": true,
+        "purchases": 1,
+        "views": 3,
+        "file": null
+    }
+]
