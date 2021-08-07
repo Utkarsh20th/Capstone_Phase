@@ -1,3 +1,59 @@
 README
 
+Pre-requisite:
+- host the medicare DB data onto the MySQL server
+- host the medicare.war file onto the Apache Tomcat server
+
+
+Medicare Project:
+- navigate to path: {User}\eclipse-workspace\medicare\src\main\java\selenium_script\Medicare_Driver.java
+- open the file
+- in Line: 30, change the path where the user has installed the chromedriver
+- in Line: 36, change the path where the user has hosted the medicare website using the medicare.war file
+- navigate to path : {User}\eclipse-workspace\medicare\src\main\java\selenium_script\Medicare_adminLogin.java
+- in Line: 20, change the path where the user has hosted the medicare website using the medicare.war file
+- navigate to path : {User}\eclipse-workspace\medicare\src\main\java\selenium_script\Medicare_PlaceOrder.java
+- in Line: 20, change the path where the user has hosted the medicare website using the medicare.war file
+
+
+
+
+Results:
+
+- new User_detail added to the DB                                       (Screenshot1)
+- new Category added                                                    (Screenshot2)
+- new Product added                                                     (Screenshot3)
+- new Address added                                                     (Screenshot4)
+- new Cart added                                                        (Screenshot5)
+- new Order_detail added                                                (Screenshot6)
+- new Order_item added                                                  (Screenshot7)
+- new product category added to the website                             (Screenhot8)
+- new productadded, its image and its description added to the website  (Screenshot9) (Screenshot10)
+- new user added to the website                                         (Screenshot11)
+- new supplier added to the website                                     (Screenshot12)
+- new customer has placed an order                                      (Screenshot13)
+- API fetches new product details                                       (Screenshot14) (API Result 1.json)
+- API fetches new product                                               (Screenshot15) (API Result 2.json)
+- API fetching the new product added                                    (Screenshot16) (API Result 3.json)
+- API fetching all products                                             (Screenshot17) (API Result 4.json)
+- API fetching details for admin                                        (Screenshot18) (API Result 5.json)
+- APIs Jenkins job execution result                                     (Result - APIs on Jenkins.txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
