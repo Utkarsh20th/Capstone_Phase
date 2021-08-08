@@ -7,6 +7,7 @@ Pre-requisite:
 
 Medicare Project:
 - navigate to path: {User}\eclipse-workspace\medicare\src\main\java\selenium_script\Medicare_Driver.java
+- *** navigate to github link 
 - open the file
 - in Line: 30, change the path where the user has installed the chromedriver
 - in Line: 36, change the path where the user has hosted the medicare website using the medicare.war file
