@@ -1,0 +1,45 @@
+Started by user Utkarsh Karnwal
+Running as SYSTEM
+Building in workspace C:\Users\Utkarshk\.jenkins\workspace\Medicare_API_using_http_Link
+[Medicare_API_using_http_Link] $ cmd /c call C:\Users\Utkarshk\AppData\Local\Temp\jenkins13353444266641932042.bat
+
+C:\Users\Utkarshk\.jenkins\workspace\Medicare_API_using_http_Link>newman run "https://www.getpostman.com/collections/7309c19b1c93ee22987a" 
+newman
+
+Simplilearn_API_Healthcare
+
+→ GET_Products_1
+  GET http://127.0.0.1:8082/medicare/json/data/mv/products [200 OK, 1.43KB, 364ms]
+
+→ GET_Products_2
+  GET http://127.0.0.1:8082/medicare/json/data/mp/products [200 OK, 1.35KB, 1481ms]
+
+→ GET_specific_Product
+  GET http://127.0.0.1:8082/medicare/json/data/category/2/products?_=1627826972075 [200 OK, 746B, 82ms]
+
+→ GET_all_Products
+  GET http://127.0.0.1:8082/medicare/json/data/all/products?_=1627827054875 [200 OK, 1.57KB, 250ms]
+
+→ GET_Manage_Products
+  GET http://127.0.0.1:8082/medicare/json/data/admin/all/products?_=1627827383478 [200 OK, 1.57KB, 147ms]
+
+┌─────────────────────────┬─────────────────────┬────────────────────┐
+│                         │            executed │             failed │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              iterations │                   1 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│                requests │                   5 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│            test-scripts │                   0 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│      prerequest-scripts │                   0 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              assertions │                   0 │                  0 │
+├─────────────────────────┴─────────────────────┴────────────────────┤
+│ total run duration: 2.7s                                           │
+├────────────────────────────────────────────────────────────────────┤
+│ total data received: 4.8KB (approx)                                │
+├────────────────────────────────────────────────────────────────────┤
+│ average response time: 464ms [min: 82ms, max: 1481ms, s.d.: 517ms] │
+└────────────────────────────────────────────────────────────────────┘
+Finished: SUCCESS
